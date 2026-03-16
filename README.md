@@ -14,24 +14,7 @@ Image → Vision Transformer (ViT) → Image Embedding
 
 Caption → BERT Encoder → Text Embedding
 
-Image Embedding ↔ Text Embedding
-
-↓
-
-Contrastive Learning (InfoNCE Loss)
-
-↓
-
-Shared Multimodal Embedding Space
-
-↓
-
-FAISS Vector Index
-
-↓
-
-Semantic Image Retrieval
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cea7e398-3e83-43e5-887c-27fdfd43300a" />
 
 ---
 
