@@ -69,11 +69,7 @@ Caption → BERT Encoder → Text Embedding
 
 **Infrastructure**
 
-- AWS S3
-- GPU training
-
----
-
+- Amazon Web Services (AWS)
 
 ---
 
