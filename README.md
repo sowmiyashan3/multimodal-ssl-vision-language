@@ -11,16 +11,25 @@ The system is trained on the **Conceptual Captions dataset** and produces a shar
 The system follows a **dual-encoder architecture**:
 
 Image → Vision Transformer (ViT) → Image Embedding
+
 Caption → BERT Encoder → Text Embedding
 
 Image Embedding ↔ Text Embedding
+
 ↓
+
 Contrastive Learning (InfoNCE Loss)
+
 ↓
+
 Shared Multimodal Embedding Space
+
 ↓
+
 FAISS Vector Index
+
 ↓
+
 Semantic Image Retrieval
 
 
